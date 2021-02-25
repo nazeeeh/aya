@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#main {
+    max-width: 1920px;
+    font-family: sans-serif;
+}
+
+#header{
+    background-image: url('../assets/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+#nav {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav .sign-up{
+    text-decoration: none;
+    color: #fff;
+    background-color: #39D8B2;
+    Padding : 18px 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+
+#nav .sign-up:hover{
+    transform: translateY(-5px);
+}
+
+.hero-text{
+    color: #fff;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.hero-text h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.hero-text p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#cryprocurrencies{
+    margin-top: 50px;
+}
+
+.crypto-heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1D1D;
+    font-size: 26px;
+    font-weight: 600px;
+
+}
+
+.crypto-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin{
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.coin-card{
+    cursor: pointer;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    transition-duration: 500ms;
+
+}
+
+.coin-card:hover{
+    transform: translateY(-15px);
+}
+
+#description{
+    margin-top: -7em;
+   margin-bottom: 15em;
+    /* padding:  80px; */
+
+}
+
+#description .desc-crypto{
+    display: flex;
+    text-align: center;
+    margin-left: 10rem;
+   
+    
+}
+
+#description .digital {
+    
+    background: #0137FB;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 50px;
+    padding: 20px;
+    /* z-index: 100; */
+}
+
+#description .digital p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#description .digital img{
+    margin-top: 50px;
+}
+
+#description .digital p{
+    margin-top: 50px;
+}
+
+/* #description .digital-border{
+    position: absolute;
+    bottom: 22rem;
+    border: 1px solid #009EFA;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+} */
+
+#side-custom-right{
+    position: absolute;
+    left: 82.4em;
+    top: 110em; 
+}
+
+#side-custom-left{
+    position: absolute;
+}
+
+#form-section{
+    
+    background: #FAFAFA;
+    box-shadow: 0px 4px 80px 20px rgba(38, 50, 56, 0.1);
+    border-radius: 33px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+#form-section h3{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: #1E1D1D;
+    font-size: 40px;
+    font-weight: bolder;
+
+    
+}
+
+#form-section form{
+    margin: 0 auto;
+}
+
+#form-section .input{
+    margin-left: 18rem;
+    padding: 10px 0;
+
+}
+
+#form-section input{
+    background: #FFFFFF;
+    border: 1px solid #455A64;
+    border-radius: 5px;
+    width: 60%;
+    height: 50px;
+
+}
+
+#form-section input::placeholder{
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+#form-section .button{
+    margin-top: 10px;
+    margin-left: 18rem;
+
+}
+
+#form-section a{
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: #69DE83;
+    transition-duration: 500ms;
+}
+
+#form-section a:hover{
+    transform: translateX(2px);
+}
+
+footer{
+    margin-top: 5em;
+    font-family: 'montserrat';
+    font-weight: lighter;
+    color: #fff;
+    font-size: 12px;
+}
+
+#footer-section{
+    background: #0036FA;
+    padding: 70px;
+}
+
+#footer-section .flex-left{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-section .footer-logo p{
+    width: 60%;
+    margin-top: 20px;
+    
+}
+
+#footer-section .flex-left .company p{
+    text-transform: uppercase;
+}
+
+#footer-section .flex-left .company i{
+    margin-right: 10px;
+}
+
+#footer-section .flex-left ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+#footer-section .flex-left ul li{
+    margin-bottom: 10px;
+}
+
+
+#footer-section .flex-left ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-section .flex-left ul li a:hover{
+    color: #2F80ED;
+}
+
+#copyright{
+    padding: 20px;
+    background: #2F80ED;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+#copyright .left-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
