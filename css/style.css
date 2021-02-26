@@ -351,6 +351,7 @@ padding: 0;
     #side-custom-left{
         position: absolute;
         top: 185em;
+        z-index: -100;
         
     }
 
@@ -386,7 +387,24 @@ padding: 0;
         padding: 10px;
         transition-duration: 500ms;
     }
+
+    footer {
+        width: 100%;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    #footer-section .flex-left{
+        display: flex;
+        flex-direction: column;
+    }
     
+    #footer-section .flex-left .company{
+        margin-bottom: 20px;
+    }
+    #copyright .left-flex p{
+        font-size: 10px;
+    }
 
 }
 
