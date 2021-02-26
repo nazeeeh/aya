@@ -4,7 +4,7 @@
 }
 
 #main {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     font-family: sans-serif;
 }
 
@@ -288,8 +288,69 @@ padding: 0;
     justify-content: space-between;
 }
 
+/* mobile responsiveness */
 
+@media only screen and (max-width: 1000px){
+    #main {
+        width: 100%;
 
+    }
+
+    #header{
+        width: 100%;
+    
+    }
+
+    .hero-text h1{
+        margin-top: 80px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    .hero-text p{
+        margin-top: 80px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .crypto-heading{
+        font-size: 20px;
+        font-weight: 700px;
+    
+    }
+
+    .crypto-logo{
+        display: block;
+        width: 100%;
+    }
+
+    #description{
+        width: 100%;
+    }
+    #description .desc-crypto{
+        margin: 0;
+    }
+
+    #description .digital{
+        margin: 10px;
+    }
+
+    #description .digital p{
+        font-size: 18px;
+    }
+
+    #side-custom-right{
+        position: absolute;
+        top: 170em;
+        left: 20em;
+        z-index: -100;
+        width: 100%;
+        
+         
+    }
+    
+
+}
 
 
 
