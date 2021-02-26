@@ -342,11 +342,49 @@ padding: 0;
     #side-custom-right{
         position: absolute;
         top: 170em;
-        left: 16em;
+        left: 20em;
         z-index: -100;
         width: 100%;
+             
+    }
+
+    #side-custom-left{
+        position: absolute;
+        top: 185em;
         
-         
+    }
+
+    #form-section{
+
+        width: 100%;
+        
+    }
+
+    #form-section h3{     
+        font-size: 24px;
+        font-weight: bolder;    
+    }
+
+    #form-section .input{
+        margin: 0 5em;
+        padding: 10px 0;
+        width: 100%;
+    
+    }
+
+    #form-section .button{
+        margin: 0 5em;
+        width: 100%;
+    
+    }
+
+    #form-section a{
+        
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        transition-duration: 500ms;
     }
     
 
