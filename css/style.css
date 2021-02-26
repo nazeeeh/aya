@@ -6,6 +6,7 @@
 #main {
     /* max-width: 1920px; */
     font-family: sans-serif;
+    width: 100%;
 }
 
 #header{
@@ -328,11 +329,14 @@ padding: 0;
         width: 100%;
     }
     #description .desc-crypto{
+        display: inline-block;
         margin: 0;
+        width: 100%;
     }
 
     #description .digital{
-        margin: 10px;
+        margin: 5px;
+        
     }
 
     #description .digital p{
@@ -348,9 +352,37 @@ padding: 0;
              
     }
 
+    @media only screen and (max-width: 400px){
+        #side-custom-right{
+            position: absolute;
+            top: 180em;
+            left: 12.5em;
+            z-index: -100;
+            width: 100%;
+                 
+        }
+        #description .digital {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin: 10px auto;
+           
+            /* z-index: 100; */
+        }
+        #description .digital img{
+            margin: 0;
+        }
+
+        #description .digital p{
+            margin: 30px;
+            font-size: 16px;
+        }
+        
+    }
+
     #side-custom-left{
         position: absolute;
-        top: 185em;
+        top: 200em;
         z-index: -100;
         
     }
