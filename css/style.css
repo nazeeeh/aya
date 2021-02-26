@@ -294,12 +294,9 @@ padding: 0;
 @media only screen and (max-width: 1000px){
     #main {
         width: 100%;
-
     }
-
     #header{
         width: 100%;
-    
     }
 
     .hero-text h1{
@@ -353,6 +350,17 @@ padding: 0;
     }
 
     @media only screen and (max-width: 400px){
+        #main{
+            width: 100%;
+        }
+        #nav .sign-up{
+           
+            Padding : 10px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            transition-duration: 500ms;
+        }
         #side-custom-right{
             position: absolute;
             top: 180em;
